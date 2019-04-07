@@ -1,0 +1,68 @@
+.f{
+
+padding: 15px;
+margin: 20px;
+
+
+}
+.f2{
+    padding: 15px;
+    margin: 20px;
+}
+input{
+    margin: 0 15px;
+    width: 180px;
+
+}
+.y{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top:0px;
+    transition:top 0.5s linear 3s;
+}
+
+.y:hover{
+    background-color: blue;
+    top:30px;
+      
+}
+@keyframes step{
+0% {
+    left:0px;
+top:0px;}
+50%{    top:200px;   }
+100%{
+        left:200px;
+    top:200px;}
+    }
+
+/* .y {
+    animation: step 1s linear 0.2s infinite alternate-reverse
+} */
+@keyframes step{
+    0% {
+        left:0px;
+    top:0px;}
+    10%{ 
+        top: 200px;
+    }
+    20%{left:50px;top:200px}
+    30%{left:100px;top:0px}
+    40%{left:200px;top:200px}
+    50%{   left:300px; top:0px;   }
+    60%{   left:400px; top:200px;   }
+    70%{   left:500px; top:0px;   }
+    80%{   left:600px; top:200px;   }
+    90%{   left:700px; top:0px;   }
+    100%{
+            left:50px;       top:200px;}
+        }
+#cat    
+{
+    position: relative;
+    /* animation: step 1s linear 0.2s infinite alternate-reverse; */
+    transform: scaleY(3);
+   
+}
