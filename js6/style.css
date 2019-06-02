@@ -1,0 +1,253 @@
+h1 {
+    color: red
+} 
+.wow {
+    color: blue;
+}
+
+ul li:nth-child(1) {color:green;}
+ol li:first-child {color: green}
+ul li:nth-child(odd) {font-size: 25px}
+ul li:nth-child(2) {color: yellow}
+ul li:nth-child(3) {color: gray}
+ol li:nth-child(2) {color:tomato}
+ul li:nth-child(4n+1) {font-size: 40px}
+#block
+ {
+    width: 100%;height: 200px;
+    background-color:red;
+    position: relative;
+top:0;
+left:0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+body {height: 2000px;}
+#block:hover {background-color: hotpink}
+#block::after {content: "/"}
+#parent {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position:relative;
+}
+#child {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top:0;
+left:0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+
+#float {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    
+
+}
+.text {clear: both}
+#float-parent{ 
+    background-color: black;
+    overflow: hidden;
+    
+}
+#float-child { 
+    width: 100px;
+    height: 100px;
+   background-color:red;
+   float: left;
+}
+#rel {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+    position:relative;
+}
+.box{
+    width: 100%;
+       background-color: red;
+    border:1px solid blue;
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 400px;
+    max-width: 100%;}
+  
+#box1
+{    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: blueviolet;
+              }
+ .wrap2{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 600px;
+    max-width: 100%;}
+  
+
+ 
+ 
+ #box2
+{   
+     grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: blueviolet;
+              }
+ #box3{
+                  background-color: aqua;
+
+
+              }
+  #box4{
+                  background-color:orange;
+              }
+.wrap3{
+                width: 1000px;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 300px 200px 200px;
+                max-width: 100%;}
+
+        #box5{
+background-color: orange;
+grid-row-start: 1;
+grid-row-end: 4;
+grid-column-start: 1;
+grid-column-end: 3;
+                }
+
+                #box6{
+background-color: blueviolet;
+grid-row-start: 1;
+grid-row-end: 1;
+grid-column-start: 3;
+grid-column-end: 5;
+                }
+               #box7{
+                   background-color: blue;
+                   grid-column-start: 3;
+                   grid-column-end: 4;
+                   grid-row-start: 2;
+                    grid-row-end: 3;
+              
+                }
+                #box8{
+                    background-color: orange;
+                    grid-row-start: 2;
+                    grid-row-end: 5;
+ 
+              
+                    
+                }
+                #box9{
+                    background-color:green;
+                }
+
+         .wrap4{
+                width: 1000px;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 150px 150px 300px 300px 300px;
+                max-width: 100%;}     
+             #box10{
+background-color: blueviolet;
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 5;
+
+                }
+                #box11{
+                    background-color: blue;
+                    grid-column-start: 3;
+                     grid-column-end: 4;
+                     grid-row-start: 1;
+                    grid-row-end: 2;
+                }
+                #box12{
+                    background-color: green;
+                    grid-column-start: 4;
+                     grid-column-end: 5;
+                     grid-row-start: 1;
+                    grid-row-end: 2;
+
+                }
+                #box13{
+                    background-color: brown;
+                    grid-row-start: 2;
+                    grid-row-end: 3;
+                    grid-column-start: 3;
+                    grid-column-end: 5;
+
+                }
+                #box14{
+                    background-color: orange;
+                    grid-column-start: 3;
+                    grid-column-end: 4;
+                    grid-row-start: 3;
+                    grid-row-end: 5;
+
+                }
+                #box15{
+                    background-color: blue;
+                    grid-column-start: 4;
+                    grid-column-end: 5;
+                }
+                #box16{
+                    background-color: green;
+                    grid-row-start: 4;
+                    grid-row-end: 5;
+                }
+                .sqr{
+                    width: 100px;
+                    height: 100px;
+                    background-color: red;
+                }
+                .blue{
+                    background-color: blue !important;
+                }
+                .menu{
+                    display: none;
+                }
+                .show{
+                    display: block;
+                }
+
+                #big-img{
+                    display: block;
+                    width: 600px;
+                    margin: 0 auto 40px;
+                    border:3px solid red;
+                }
+                .hj{
+                    text-align: center;
+                }
+                .hj a{
+                    display: inline-block;
+                    width: 200px;
+                    height: 100px;
+                    border:2px solid transparent;
+                }
+                .hj a img{
+                    width: 100%;
+                    height:100%;
+                    object-fit: cover;
+                }
+                .hj a.active{
+                    border-color:red;
+                }
